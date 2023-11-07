@@ -12,7 +12,7 @@ function Header({ data }: { data: Page[] }) {
                 aria-label={page.label}
                 key={page.id}
                 href={page.link}
-                className="text-class hover:underline hover:text-keyword uppercase"
+                className="font-bold text-class link link-underline link-underline-black hover:text-keyword uppercase"
               >
                 {page.label}
               </Link>
