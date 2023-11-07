@@ -3,8 +3,8 @@ import { pages, Page } from "../data/data";
 
 function Header({ data }: { data: Page[] }) {
   return (
-    <header className="flex flex-col relative bg-background w-full h-48">
-      <div className="flex flex-col justify-around h-full px-6 bg-background z-10">
+    <header className="flex flex-col relative bg-indent w-full h-48">
+      <div className="flex flex-col justify-around h-full px-6 bg-indent z-10">
         <nav className="text-right flex flex-row gap-6 self-end">
           {pages.map((page) => {
             return (
