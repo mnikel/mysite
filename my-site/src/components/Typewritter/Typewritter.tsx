@@ -33,7 +33,7 @@ function Typewriter() {
       <div className="my-10 flex flex-col items-center">
         <Link href="/home">
           <h1
-            className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-9xl font-bold py-2"
+            className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-9xl font-bold py-6"
             onClick={redirectToMainSite}
           >
             <span className="text-yellowbracket">&#123; </span>
