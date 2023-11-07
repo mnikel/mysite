@@ -17,5 +17,5 @@ export const contactInfo = [
     'marcin.positivie@gmail.com',
     'https://www.github.com/mnikel',
     'https://www.linkedin.com/in/mmnikel',
-    'https://wwww.twitter.com/marcin_nikel'
+    'https://www.twitter.com/marcin_nikel'
 ]
