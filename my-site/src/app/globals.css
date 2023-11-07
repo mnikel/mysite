@@ -40,3 +40,7 @@
   background-size: 100% 3px;
   background-position: 0 100%
 }
+
+svg:hover {
+  fill: #569CD6
+}
