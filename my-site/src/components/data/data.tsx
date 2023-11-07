@@ -19,3 +19,7 @@ export const contactInfo = [
     'https://www.linkedin.com/in/mmnikel',
     'https://www.twitter.com/marcin_nikel'
 ]
+
+export type ContactInfo = {
+    contactInfo: string[]
+}

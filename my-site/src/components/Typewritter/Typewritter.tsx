@@ -44,7 +44,9 @@ function Typewriter() {
 
         <div className="w-max m-40 py-10 flex justify-center items-center">
           <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold py-2">
-            <span className="text-class">To get inside, click the name or press return...</span>
+            <span className="text-class">
+              To get inside, click the name or press return...
+            </span>
           </p>
         </div>
       </div>

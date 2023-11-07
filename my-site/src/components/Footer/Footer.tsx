@@ -1,7 +1,7 @@
 import React from "react";
-import {Mail, Github, Linkedin, X} from "../../app/icons";
-import {contactInfo} from '../data/data';
-function Footer( { contactInfo }) {
+import { Mail, Github, Linkedin, X } from "../../app/icons";
+import { contactInfo, ContactInfo } from "../data/data";
+function Footer({ contactInfo }: ContactInfo) {
   return (
     <footer className="w-full bg-background shadow-footer mt-12 py-4 fixed bottom-0">
       <div className="flex items-center justify-center gap-2">
