@@ -55,12 +55,7 @@ const config: Config = {
     },
     animation: {
       typing: "typing 9s steps(90) 1, blink .7s infinite",
-    }
-    
-    
-    
-    
-    
+    },
   },
   plugins: [],
 };
