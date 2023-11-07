@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { pages, Page } from "../data/navigation";
+import { pages, Page } from "../data/data";
 
 function Header({ data }: { data: Page[] }) {
   return (
