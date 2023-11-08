@@ -5,7 +5,7 @@ import ContactForm from "../ContactForm/ContactForm";
 
 function Footer({ contactInfo }: ContactInfo) {
   return (
-    <footer className="flex items-center justify-center w-full bg-background shadow-footer py-4 flex-wrap">
+    <footer className="flex items-center justify-center w-full bg-background shadow-footer py-4 flex-wrap" id="contact">
       <div className="w-1/3">
         <ContactForm />
       </div>

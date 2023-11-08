@@ -28,7 +28,7 @@ function Page() {
   return (
     <main className="flex flex-col items-center bg-indent">
       {/* sekcja 1 do HOME */}
-      <section className="flex flex-row w-10/12 mt-10 mb-6 items-center">
+      <section className="flex flex-row w-10/12 mt-10 mb-6 items-center" id="home">
         <div>
           <h2> {homeData.title}</h2>
           <p> {homeData.body}</p>
@@ -36,7 +36,7 @@ function Page() {
       </section>
 
       {/* sekcja 2 do ABOUT */}
-      <section className="flex flex-row w-10/12 mt-10 mb-6 items-center">
+      <section className="flex flex-row w-10/12 mt-10 mb-6 items-center" id="about">
       <div className="w-1/3">
           <Image
             width={640}
@@ -94,7 +94,7 @@ function Page() {
           </div>
       </section>
       {/* sekcja 2 do PROJECTS */}
-      <section>
+      <section id="projects">
         <div>
           <h2>{homeData.projects}</h2>
         </div>
