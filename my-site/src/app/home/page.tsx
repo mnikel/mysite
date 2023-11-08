@@ -54,24 +54,43 @@ function Page() {
           <div className="flex flex-wrap w-1/3">
           <h2>{homeData.stack}</h2>
             <Bootstrap className="technology_svg"/>
+            <h4>{homeData.bootstrap}</h4>
             <Css className="technology_svg"/>
+            <h4>{homeData.css}</h4>
             <Docker className="technology_svg"/>
+            <h4>{homeData.docker}</h4>
             <Figma className="technology_svg"/>
+            <h4>{homeData.figma}</h4>
             <Git className="technology_svg"/>
+            <h4>{homeData.git}</h4>
             <Html className="technology_svg"/>
+            <h4>{homeData.html}</h4>
             <Intellij className="technology_svg"/>
+            <h4>{homeData.intellij}</h4>
             <Java className="technology_svg"/>
+            <h4>{homeData.java}</h4>
             <Javascript className="technology_svg"/>
+            <h4>{homeData.javascript}</h4>
             <Next className="technology_svg"/>
+            <h4>{homeData.next}</h4>
             <Mongodb className="technology_svg"/>
+            <h4>{homeData.mongo}</h4>
             <Node className="technology_svg"/>
+            <h4>{homeData.node}</h4>
             <Python className="technology_svg"/>
+            <h4>{homeData.python}</h4>
             <ReactLogo className="technology_svg"/>
+            <h4>{homeData.react}</h4>
             <Sass className="technology_svg"/>
+            <h4>{homeData.sass}</h4>
             <Tailwind className="technology_svg"/>
+            <h4>{homeData.tailwind}</h4>
             <Trello className="technology_svg"/>
+            <h4>{homeData.trello}</h4>
             <Typescript className="technology_svg"/>
+            <h4>{homeData.typescript}</h4>
             <Vsc className="technology_svg"/>
+            <h4>{homeData.vsc}</h4>
           </div>
       </section>
       {/* sekcja 2 do PROJECTS */}
