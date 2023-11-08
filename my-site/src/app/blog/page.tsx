@@ -4,8 +4,8 @@ import Header from '@/components/Header/Header'
 function Page() {
   return (
     <div>
-      <h1>BLOG page</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In totam aspernatur eveniet inventore dignissimos corrupti quam quibusdam cumque provident nemo!</p>
+      <h1>THIS PARTICULAR PAGE IS UNDER CONSTRUCTION </h1>
+      <h1>NOTHING TO SEE HERE</h1>
     </div>
   )
 }
