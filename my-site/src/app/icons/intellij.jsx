@@ -2,8 +2,8 @@ import React from "react";
 
 export const Intellij = ({ className }) => (
   <svg
-    width="2500"
-    height="2500"
+    height="50"
+    width="50"
     viewBox="0 0 256 256"
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMidYMid"
@@ -57,14 +57,14 @@ export const Intellij = ({ className }) => (
         <stop stop-color="#087CFA" offset="100%" />
       </linearGradient>
     </defs>
-    <path fill="url(#a)" d="M64.8 199.6l-62-48.8 30.8-57.2L122 128z" />
+    <path className="change_on_hover" fill="url(#a)" d="M64.8 199.6l-62-48.8 30.8-57.2L122 128z" />
     <path
-      fill="url(#b)"
+      className="change_on_hover" fill="url(#b)"
       d="M256 68.4l-4.8 148-98.4 39.6-59.2-38.4L180 128l-37.6-83.2 34-40.8z"
     />
-    <path fill="url(#c)" d="M256 68.4l-78 92-35.6-115.6 34-40.8z" />
+    <path className="change_on_hover" fill="url(#c)" d="M256 68.4l-78 92-35.6-115.6 34-40.8z" />
     <path
-      fill="url(#d)"
+      className="change_on_hover" fill="url(#d)"
       d="M123.2 212.4L20.8 249.6 37.2 192l21.2-71.2L0 101.2 37.2 0l80 9.6 79.2 90.4z"
     />
     <path d="M48 48h160v160H48z" />

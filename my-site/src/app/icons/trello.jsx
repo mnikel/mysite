@@ -3,9 +3,9 @@ import React from "react";
 export const Trello = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="64"
     viewBox="0 0 73.323 64"
-    height="64"
+    height="50"
+    width="50"
   >
     <defs>
       <linearGradient
@@ -20,7 +20,7 @@ export const Trello = ({ className }) => (
         <stop offset="1" stop-color="#2684ff" />
       </linearGradient>
     </defs>
-    <path
+    <path className="change_on_hover"
       d="M55.16 1.5H7.88a7.88 7.88 0 0 0-5.572 2.308A7.88 7.88 0 0 0 0 9.39v47.28a7.88 7.88 0 0 0 7.88 7.88h47.28A7.88 7.88 0 0 0 63 56.67V9.4a7.88 7.88 0 0 0-7.84-7.88zM27.42 49.26A3.78 3.78 0 0 1 23.64 53H12a3.78 3.78 0 0 1-3.8-3.74V13.5A3.78 3.78 0 0 1 12 9.71h11.64a3.78 3.78 0 0 1 3.78 3.78zM54.85 33.5a3.78 3.78 0 0 1-3.78 3.78H39.4a3.78 3.78 0 0 1-3.78-3.78v-20a3.78 3.78 0 0 1 3.78-3.79h11.67a3.78 3.78 0 0 1 3.78 3.78z"
       fill="url(#A)"
       fill-rule="evenodd"

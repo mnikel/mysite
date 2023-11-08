@@ -41,7 +41,7 @@ p {
 
 .link-underline-black {
   background-image: linear-gradient(transparent, transparent),
-    linear-gradient(#1E1E1E, #1E1E1E);
+    linear-gradient(#404040, #404040);
 }
 
 .link-underline:hover {
@@ -51,14 +51,10 @@ p {
 
 /* svg hover to change colours */ 
 
-svg { /* na szybko zmienic potem !!!!!*/
-  width: 50px;
-  height: 50px;
-}
-
-svg:hover {
+svg:hover path.change_on_hover {
   fill: #569cd6;
 }
+
 
 /* profile image */
 

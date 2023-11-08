@@ -1,7 +1,7 @@
 import React from "react";
 
 export const Tailwind = ({ className }) => (
-  <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64">
+  <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50">
     <defs>
       <linearGradient
         x1="0"
@@ -15,7 +15,7 @@ export const Tailwind = ({ className }) => (
         <stop stop-color="#6dd7b9" offset="100%" />
       </linearGradient>
     </defs>
-    <path
+    <path className="change_on_hover"
       d="M16 25.6c2.133-8.533 7.467-12.8 16-12.8 12.8 0 14.4 9.6 20.8 11.2 4.267 1.067 8-.533 11.2-4.8C61.867 27.733 56.533 32 48 32c-12.8 0-14.4-9.6-20.8-11.2-4.267-1.067-8 .533-11.2 4.8zM0 44.8C2.133 36.267 7.467 32 16 32c12.8 0 14.4 9.6 20.8 11.2 4.267 1.067 8-.533 11.2-4.8-2.133 8.533-7.467 12.8-16 12.8-12.8 0-14.4-9.6-20.8-11.2-4.267-1.067-8 .533-11.2 4.8z"
       fill="url(#A)"
       fill-rule="evenodd"
