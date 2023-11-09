@@ -1,134 +1,71 @@
 import React from "react";
 import { homeData } from "../data/data";
-import {
-  Bootstrap,
-  Css,
-  Docker,
-  Figma,
-  Git,
-  Html,
-  Intellij,
-  Java,
-  Javascript,
-  Mongodb,
-  Next,
-  Node,
-  Python,
-  ReactLogo,
-  Sass,
-  Tailwind,
-  Trello,
-  Typescript,
-  Vsc,
-} from "../../app/icons";
-
 import Ranking from "../Ranking/Ranking";
+import * as Icons from "../../app/icons";
+
+const categories = [
+  {
+    title: homeData.stackFrontend,
+    tech: [
+      { Icon: Icons.Next, title: homeData.next, rating: 2 },
+      { Icon: Icons.Bootstrap, title: homeData.bootstrap, rating: 3 },
+      { Icon: Icons.Html, title: homeData.html, rating: 4 },
+      { Icon: Icons.Css, title: homeData.css, rating: 2 },
+      { Icon: Icons.Javascript, title: homeData.javascript, rating: 3 },
+      { Icon: Icons.ReactLogo, title: homeData.react, rating: 3 },
+      { Icon: Icons.Sass, title: homeData.sass, rating: 2 },
+      { Icon: Icons.Tailwind, title: homeData.tailwind, rating: 3 },
+      { Icon: Icons.Typescript, title: homeData.typescript, rating: 3 },
+    ],
+  },
+  {
+    title: homeData.stackBackend,
+    tech: [
+      { Icon: Icons.Java, title: homeData.java, rating: 1 },
+      { Icon: Icons.Node, title: homeData.node, rating: 3 },
+      { Icon: Icons.Python, title: homeData.python, rating: 1 },
+      { Icon: Icons.Express, title: homeData.express, rating: 2 },
+      { Icon: Icons.Nest, title: homeData.nest, rating: 2 },
+
+    ],
+  },
+  {
+    title: homeData.stackTools,
+    tech: [
+      { Icon: Icons.Docker, title: homeData.docker, rating: 1 },
+      { Icon: Icons.Figma, title: homeData.figma, rating: 4 },
+      { Icon: Icons.Git, title: homeData.git, rating: 3 },
+      { Icon: Icons.Intellij, title: homeData.intellij, rating: 2 },
+      { Icon: Icons.Vsc, title: homeData.vsc, rating: 5 },
+      { Icon: Icons.Trello, title: homeData.trello, rating: 4 },
+    ],
+  },
+  {
+    title: homeData.stackDatabases,
+    tech: [{ Icon: Icons.Mongodb, title: homeData.mongo, rating: 2 }],
+  },
+];
+
 function TechnologyStack() {
   return (
-    <>
-      <div className="flex flex-wrap w-1/3 gap-4">
-        <div className="w-full flex items-center justify-center mt-auto">
-          <h3>{homeData.stack}</h3>
-        </div>
-        <div>
-          <Bootstrap className={"order-2"} />
-          <h4>{homeData.bootstrap}</h4>
-          <div className="flex flex-row justify-center">
-            <Ranking yellowStars={3} />
-          </div>
-        </div>
-        <div>
-          <Css className="order-2" />
-          <h4>{homeData.css}</h4>
-          <Ranking yellowStars={2} />
-        </div>
-        <div>
-          <Docker className="order-2" />
-          <h4>{homeData.docker}</h4>
-          <Ranking yellowStars={1} />
-        </div>
-        <div>
-          <Figma className="order-2" />
-          <h4>{homeData.figma}</h4>
-          <Ranking yellowStars={4} />
-        </div>
-        <div>
-          <Git className="order-2" />
-          <h4>{homeData.git}</h4>
-          <Ranking yellowStars={3} />
-        </div>
-        <div>
-          <Html className="order-2" />
-          <h4>{homeData.html}</h4>
-          <Ranking yellowStars={4} />
-        </div>
-        <div>
-          <Intellij className="order-2" />
-          <h4>{homeData.intellij}</h4>
-          <Ranking yellowStars={2} />
-        </div>
-        <div>
-          <Java className="order-2" />
-          <h4>{homeData.java}</h4>
-          <Ranking yellowStars={1} />
-        </div>
-        <div>
-          <Javascript className="order-2" />
-          <h4>{homeData.javascript}</h4>
-          <Ranking yellowStars={3} />
-        </div>
-        <div>
-          <Next className="order-2" />
-          <h4>{homeData.next}</h4>
-          <Ranking yellowStars={2} />
-        </div>
-        <div>
-          <Node className="order-2" />
-          <h4>{homeData.node}</h4>
-          <Ranking yellowStars={3} />
-        </div>
-        <div>
-          <Python className="order-2" />
-          <h4>{homeData.python}</h4>
-          <Ranking yellowStars={1} />
-        </div>
-        <div>
-          <ReactLogo className="order-2" />
-          <h4>{homeData.react}</h4>
-          <Ranking yellowStars={3} />
-        </div>
-        <div>
-          <Sass className="order-2" />
-          <h4>{homeData.sass}</h4>
-          <Ranking yellowStars={2} />
-        </div>
-        <div>
-          <Tailwind className="order-2" />
-          <h4>{homeData.tailwind}</h4>
-          <Ranking yellowStars={3} />
-        </div>
-        <div>
-          <Typescript className="order-2" />
-          <h4>{homeData.typescript}</h4>
-          <Ranking yellowStars={3} />
-        </div>
-        <div>
-          <Vsc className="order-2" />
-          <h4>{homeData.vsc}</h4>
-          <Ranking yellowStars={5} />
-        </div>
-        <div>
-          <Mongodb className="order-2" />
-          <h4>{homeData.mongo}</h4>
-          <Ranking yellowStars={2} />
-        </div>
-        <div>
-          <Trello className="order-2" />
-          <h4>{homeData.trello}</h4>
-          <Ranking yellowStars={4} />
-        </div>
+    <div className="flex flex-wrap w-1/3 gap-4">
+      <div className="w-full flex items-center justify-center mt-auto">
+        <h3>{homeData.stack}</h3>
       </div>
-    </>
+
+      {categories.map((category, index) => (
+        <div key={index}>
+          <h3>{category.title}</h3>
+          {category.tech.map((tech, index) => (
+            <div key={index}>
+              <tech.Icon className="order-2" />
+              <h4>{tech.title}</h4>
+              <Ranking yellowStars={tech.rating} />
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
   );
 }
 
