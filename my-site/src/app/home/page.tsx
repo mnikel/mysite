@@ -13,8 +13,14 @@ function Page() {
         id="home"
       >
         <div>
-          <h2> {homeData.title}</h2>
-          <p> {homeData.body}</p>
+          <h4>{homeData.title}</h4>
+          <h4>{homeData.title1}</h4>
+          <h4>{homeData.title2}</h4>
+          <h4>{homeData.title3}</h4>
+          <h4>{homeData.title4}</h4>
+          <h4>{homeData.title5}</h4>
+          <h4>{homeData.title6}</h4>
+          <h4>{homeData.title7}</h4>
         </div>
       </section>
 
@@ -38,16 +44,23 @@ function Page() {
           <p> {homeData.body}</p> {/* dopisac kolejny key w data!!!!!! */}
         </div>
         <TechnologyStack />
+        {/* <div>
+          <h1>Tutaj stworzyc komponent z CV</h1>
+        </div> */}
       </section>
+
       {/* sekcja 2 do PROJECTS */}
-      <section id="projects">
-        <div>
+      <section
+        id="projects"
+        className="flex flex-col w-10/12 mt-10 mb-6 items-start"
+      >
+        <div className="mb-4">
           <h2>{homeData.projects}</h2>
         </div>
         <div>
           <h2>Tutaj przemapowac po komponencie z thumbnailem projektu</h2>
           <p>{homeData.projectsPH}</p>
-        </div>{" "}
+        </div>
         {/* stworzyc komponent thumbnaila */}
       </section>
     </main>

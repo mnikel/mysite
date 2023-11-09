@@ -22,6 +22,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/icons/github.jsx", "src/app/icons/linkedin.jsx", "src/app/icons/mail.jsx", "src/app/icons/x.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/icons/github.jsx", "src/app/icons/linkedin.jsx", "src/app/icons/mail.jsx", "src/app/icons/x.jsx", "src/app/icons/css.jsx"],
   "exclude": ["node_modules"]
 }
