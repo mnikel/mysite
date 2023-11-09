@@ -1,6 +1,7 @@
 import "../globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+// import RL from "../contact/layout";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
 import { pages } from "@/components/data/data";
@@ -27,5 +28,7 @@ export default function RootLayout({
         </main>
       </body>
     </html>
+    // <RL children={children} ogarnij pozniej dla kazdego />
+    
   );
 }

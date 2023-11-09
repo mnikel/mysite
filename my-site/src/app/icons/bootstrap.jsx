@@ -1,5 +1,6 @@
 import React from "react";
 
+{/* napisac itnerfejs przyjmujacy className - string i tyle do kazdego i zmienic na tsx kazdy svg */}
 export const Bootstrap = ({ className }) => (
   <svg
     width="50"

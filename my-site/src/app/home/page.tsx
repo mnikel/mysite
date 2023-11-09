@@ -23,6 +23,8 @@ function Page() {
         </div>
       </section>
 
+      {/* t,t1,t2... mapowanko ! */}
+
       {/* sekcja 2 do ABOUT */}
       <section
         className="flex flex-row w-10/12 mt-10 mb-6 items-center"
@@ -39,11 +41,12 @@ function Page() {
             className="photo"
           />
         </div>
+
         <div className="w-1/3">
           <p> {homeData.body}</p> {/* dopisac kolejny key w data!!!!!! */}
           <div>
-        <AboutMeToggleButton />
-        </div>
+            <AboutMeToggleButton />
+          </div>
         </div>
         <TechnologyStack />
         {/* Komponent z CV */}

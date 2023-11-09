@@ -8,8 +8,6 @@ function Typewriter() {
     window.location.href = "/home";
   };
 
-  const [animationComplete, setAnimationComplete] = useState(false);
-
   useEffect(() => {
     const handleKeyPress = (event: KeyboardEvent) => {
       if (event.key === "Enter") {
@@ -17,14 +15,9 @@ function Typewriter() {
       }
     };
     window.addEventListener("keypress", handleKeyPress);
-
-    const animationTimeout = setTimeout(() => {
-      setAnimationComplete(true);
-    }, 3500);
-
+    
     return () => {
       window.removeEventListener("keypress", handleKeyPress);
-      clearTimeout(animationTimeout);
     };
   }, []);
 

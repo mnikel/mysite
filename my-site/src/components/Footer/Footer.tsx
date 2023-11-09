@@ -1,6 +1,6 @@
 import React from "react";
 import { Mail, Github, Linkedin, X } from "../../app/icons";
-import { contactInfo, ContactInfo, homeData } from "../data/data";
+import { ContactInfo, homeData } from "../data/data";
 import ContactForm from "../ContactForm/ContactForm";
 
 function Footer({ contactInfo }: ContactInfo) {
