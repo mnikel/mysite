@@ -13,7 +13,8 @@ export const Css: React.FC<CssProps> = ({ className }) => (
   >
     <path
       d="M10.383 126.892L0 0l124 .255-10.979 126.637-50.553 14.638z"
-      fill="#1b73ba" className="change_on_hover"
+      fill="#1b73ba"
+      className="change_on_hover"
     />
     <path d="M62.468 129.275V12.085l51.064.17-9.106 104.85z" fill="#1c88c7" />
     <path

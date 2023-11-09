@@ -23,7 +23,8 @@ export const ReactLogo: React.FC<ReactProps> = ({ className }) => (
     <g id="SVGRepo_iconCarrier">
       <rect width="512" height="512" rx="15%" fill="#ffffff"></rect>
       <circle cx="256" cy="256" r="36" fill="#61dafb"></circle>
-      <path className="change_on_hover"
+      <path
+        className="change_on_hover"
         stroke="#61dafb"
         stroke-width="18"
         fill="none"
