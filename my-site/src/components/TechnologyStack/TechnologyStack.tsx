@@ -117,6 +117,16 @@ function TechnologyStack() {
           <h4>{homeData.vsc}</h4>
           <Ranking yellowStars={5} />
         </div>
+        <div>
+          <Mongodb className="order-2" />
+          <h4>{homeData.mongo}</h4>
+          <Ranking yellowStars={2} />
+        </div>
+        <div>
+          <Trello className="order-2" />
+          <h4>{homeData.trello}</h4>
+          <Ranking yellowStars={4} />
+        </div>
       </div>
     </>
   );

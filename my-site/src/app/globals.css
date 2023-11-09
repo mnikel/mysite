@@ -22,6 +22,7 @@
 
   h1 {
     @apply text-4xl sm:text-6xl;
+    font-family: Oswald, system-ui, sans-serif;
   }
 }
 
