@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Vsc = ({ className }) => (
+interface VscProps {
+  className?: string;
+}
+
+export const Vsc: React.FC<VscProps> = ({ className }) => (
   <svg
     viewBox="-11.9 -2 1003.9 995.6"
     height="50"

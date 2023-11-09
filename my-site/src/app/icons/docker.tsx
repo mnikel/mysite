@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Docker = ({ className }) => (
+interface DockerProps {
+  className?: string;
+}
+
+export const Docker: React.FC<DockerProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     aria-label="Docker"
@@ -31,5 +35,3 @@ export const Docker = ({ className }) => (
     </g>
   </svg>
 );
-
-export default Docker;

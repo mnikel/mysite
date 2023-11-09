@@ -1,7 +1,10 @@
 import React from "react";
 
-export const Html = ({ className }) => (
-  <svg
+interface HtmlProps {
+  className?: string;
+}
+
+export const Html: React.FC<HtmlProps> = ({ className }) => (  <svg
     xmlns="http://www.w3.org/2000/svg"
     height="50"
     width="50"

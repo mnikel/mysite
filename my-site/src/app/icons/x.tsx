@@ -1,6 +1,10 @@
 import React from "react";
 
-export const X = ({ className }) => (
+interface XProps {
+  className?: string;
+}
+
+export const X: React.FC<XProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="200"

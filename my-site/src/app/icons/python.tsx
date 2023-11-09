@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Python = ({ className }) => (
+interface PythonProps {
+  className?: string;
+}
+
+export const Python: React.FC<PythonProps> = ({ className }) => (
   <svg
     height="50"
     width="50"

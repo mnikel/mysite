@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Node = ({ className }) => (
+interface NodeProps {
+  className?: string;
+}
+
+export const Node: React.FC<NodeProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     height="50"

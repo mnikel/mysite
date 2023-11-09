@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Trello = ({ className }) => (
+interface TrelloProps {
+  className?: string;
+}
+
+export const Trello: React.FC<TrelloProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 73.323 64"

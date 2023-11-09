@@ -1,13 +1,17 @@
 import React from "react";
 
-{/* napisac itnerfejs przyjmujacy className - string i tyle do kazdego i zmienic na tsx kazdy svg */}
-export const Bootstrap = ({ className }) => (
+interface BootstrapProps {
+  className?: string;
+}
+
+export const Bootstrap: React.FC<BootstrapProps> = ({ className }) => (
   <svg
     width="50"
     height="50"
     viewBox="0 0 256 256"
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMinYMin meet"
+    className={className}
   >
     <path
       d="M0 222.991C0 241.223 14.779 256 33.009 256H222.99C241.223 256 256 241.221 256 222.991V33.01C256 14.777 241.221 0 222.991 0H33.01C14.777 0 0 14.779 0 33.009V222.99z"

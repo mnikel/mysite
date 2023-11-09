@@ -31,7 +31,7 @@ function TechnologyStack() {
           <h3>{homeData.stack}</h3>
         </div>
         <div>
-          <Bootstrap className="order-2" />
+          <Bootstrap className={"order-2"} />
           <h4>{homeData.bootstrap}</h4>
           <div className="flex flex-row justify-center">
             <Ranking yellowStars={3} />

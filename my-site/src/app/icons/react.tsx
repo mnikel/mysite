@@ -1,6 +1,10 @@
 import React from "react";
 
-export const ReactLogo = ({ className }) => (
+interface ReactProps {
+  className?: string;
+}
+
+export const ReactLogo: React.FC<ReactProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     aria-label="React"

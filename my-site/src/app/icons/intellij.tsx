@@ -1,7 +1,10 @@
 import React from "react";
 
-export const Intellij = ({ className }) => (
-  <svg
+interface IntelliJProps {
+  className?: string;
+}
+
+export const Intellij: React.FC<IntelliJProps> = ({ className }) => (  <svg
     height="50"
     width="50"
     viewBox="0 0 256 256"

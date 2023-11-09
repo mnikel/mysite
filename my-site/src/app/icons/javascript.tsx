@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Javascript = ({ className }) => (
+interface JavascriptProps {
+  className?: string;
+}
+
+export const Javascript: React.FC<JavascriptProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     aria-label="JavaScript"

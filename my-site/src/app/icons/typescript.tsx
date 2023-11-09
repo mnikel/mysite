@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Typescript = ({ className }) => (
+interface TypescriptProps {
+  className?: string;
+}
+
+export const Typescript: React.FC<TypescriptProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     aria-label="TypeScript"
@@ -25,5 +29,3 @@ export const Typescript = ({ className }) => (
     </g>
   </svg>
 );
-
-export default Typescript;

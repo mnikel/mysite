@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Mail = ({ className }) => (
+interface MailProps {
+  className?: string;
+}
+
+export const Mail: React.FC<MailProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     height="200"

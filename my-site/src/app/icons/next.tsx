@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Next = ({ className }) => (
+interface NextProps {
+  className?: string;
+}
+
+export const Next: React.FC<NextProps> = ({ className }) => (
   <svg
     viewBox=".5 -.2 1023 1024.1"
     height="50"

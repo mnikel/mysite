@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Linkedin = ({ className }) => (
+interface LinkeinProps {
+  className?: string;
+}
+
+export const Linkedin: React.FC<LinkeinProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     height="200"

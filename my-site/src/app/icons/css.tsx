@@ -1,6 +1,9 @@
 import React from "react";
+interface CssProps {
+  className?: string;
+}
 
-export const Css = ({ className }) => (
+export const Css: React.FC<CssProps> = ({ className }) => (
   <svg
     fill="none"
     height="50"

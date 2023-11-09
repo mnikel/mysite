@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Java = ({ className }) => (
+interface JavaProps {
+  className?: string;
+}
+
+export const Java: React.FC<JavaProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     aria-label="Java"

@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Sass = ({ className }) => (
+interface SassProps {
+  className?: string;
+}
+
+export const Sass: React.FC<SassProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     aria-label="Sass"

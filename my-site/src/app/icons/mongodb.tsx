@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Mongodb = ({ className }) => (
+interface MongodbProps {
+  className?: string;
+}
+
+export const Mongodb: React.FC<MongodbProps> = ({ className }) => (
   <svg
     viewBox="8.738 -5.03622834 17.45992422 39.40619484"
     height="50"

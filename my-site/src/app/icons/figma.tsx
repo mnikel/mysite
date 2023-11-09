@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Figma = ({ className }) => (
+interface FigmaProps {
+  className?: string;
+}
+
+export const Figma: React.FC<FigmaProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 7.678 7.68"

@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Tailwind = ({ className }) => (
+interface TailwindProps {
+  className?: string;
+}
+
+export const Tailwind: React.FC<TailwindProps> = ({ className }) => (
   <svg xmlns="http://www.w3.org/2000/svg" height="50" width="50">
     <defs>
       <linearGradient

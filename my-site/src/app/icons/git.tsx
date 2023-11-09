@@ -1,6 +1,10 @@
 import React from "react";
 
-export const Git = ({ className }) => (
+interface GitProps {
+  className?: string;
+}
+
+export const Git: React.FC<GitProps> = ({ className }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     height="50"
