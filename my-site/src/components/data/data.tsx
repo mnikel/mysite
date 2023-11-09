@@ -63,7 +63,8 @@ export const homeData = {
   typescript: "TypeScript",
   vsc: "Visual Studio Code",
   express: "Express.JS",
-  nest: "Nest.JS"
+  nest: "Nest.JS",
+  azure: "Azure"
 };
 
 export const ResumeData = [

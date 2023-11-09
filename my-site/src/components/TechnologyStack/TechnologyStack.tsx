@@ -37,6 +37,7 @@ const categories = [
       { Icon: Icons.Git, title: homeData.git, rating: 3 },
       { Icon: Icons.Intellij, title: homeData.intellij, rating: 2 },
       { Icon: Icons.Docker, title: homeData.docker, rating: 1 },
+      { Icon: Icons.Azure, title: homeData.azure, rating: 1 },
     ],
   },
   {

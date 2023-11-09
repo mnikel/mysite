@@ -23,3 +23,4 @@ export * from './typescript';
 export * from './vsc';
 export * from './express';
 export * from './nest';
+export * from './azure';
