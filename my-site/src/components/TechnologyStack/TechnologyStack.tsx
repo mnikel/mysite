@@ -7,37 +7,36 @@ const categories = [
   {
     title: homeData.stackFrontend,
     tech: [
-      { Icon: Icons.Next, title: homeData.next, rating: 2 },
-      { Icon: Icons.Bootstrap, title: homeData.bootstrap, rating: 3 },
       { Icon: Icons.Html, title: homeData.html, rating: 4 },
-      { Icon: Icons.Css, title: homeData.css, rating: 2 },
+      { Icon: Icons.Bootstrap, title: homeData.bootstrap, rating: 3 },
       { Icon: Icons.Javascript, title: homeData.javascript, rating: 3 },
       { Icon: Icons.ReactLogo, title: homeData.react, rating: 3 },
-      { Icon: Icons.Sass, title: homeData.sass, rating: 2 },
       { Icon: Icons.Tailwind, title: homeData.tailwind, rating: 3 },
+      { Icon: Icons.Next, title: homeData.next, rating: 2 },
+      { Icon: Icons.Css, title: homeData.css, rating: 2 },
+      { Icon: Icons.Sass, title: homeData.sass, rating: 2 },
       { Icon: Icons.Typescript, title: homeData.typescript, rating: 3 },
     ],
   },
   {
     title: homeData.stackBackend,
     tech: [
-      { Icon: Icons.Java, title: homeData.java, rating: 1 },
       { Icon: Icons.Node, title: homeData.node, rating: 3 },
-      { Icon: Icons.Python, title: homeData.python, rating: 1 },
       { Icon: Icons.Express, title: homeData.express, rating: 2 },
       { Icon: Icons.Nest, title: homeData.nest, rating: 2 },
-
+      { Icon: Icons.Java, title: homeData.java, rating: 1 },
+      { Icon: Icons.Python, title: homeData.python, rating: 1 },
     ],
   },
   {
     title: homeData.stackTools,
     tech: [
-      { Icon: Icons.Docker, title: homeData.docker, rating: 1 },
+      { Icon: Icons.Vsc, title: homeData.vsc, rating: 5 },
       { Icon: Icons.Figma, title: homeData.figma, rating: 4 },
+      { Icon: Icons.Trello, title: homeData.trello, rating: 4 },
       { Icon: Icons.Git, title: homeData.git, rating: 3 },
       { Icon: Icons.Intellij, title: homeData.intellij, rating: 2 },
-      { Icon: Icons.Vsc, title: homeData.vsc, rating: 5 },
-      { Icon: Icons.Trello, title: homeData.trello, rating: 4 },
+      { Icon: Icons.Docker, title: homeData.docker, rating: 1 },
     ],
   },
   {
@@ -56,7 +55,7 @@ function TechnologyStack() {
       {categories.map((category, index) => (
         <div key={index}>
           <h3>{category.title}</h3>
-          {category.tech.map((tech, index) => (
+          {category.tech.sort((a, b) => b.rating - a.rating).map((tech, index) => (
             <div key={index}>
               <tech.Icon className="order-2" />
               <h4>{tech.title}</h4>
