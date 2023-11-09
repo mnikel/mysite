@@ -1,9 +1,8 @@
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
+"use client";
 import { homeData } from "@/components/data/data";
-import { homedir } from "os";
 import Image from "next/image";
 import TechnologyStack from "@/components/TechnologyStack/TechnologyStack";
+import AboutMeToggleButton from "@/components/AboutMeToggleButton/AboutMeToggleButton";
 function Page() {
   return (
     <main className="flex flex-col items-center bg-indent">
@@ -42,11 +41,12 @@ function Page() {
         </div>
         <div className="w-1/3">
           <p> {homeData.body}</p> {/* dopisac kolejny key w data!!!!!! */}
+          <div>
+        <AboutMeToggleButton />
+        </div>
         </div>
         <TechnologyStack />
-        {/* <div>
-          <h1>Tutaj stworzyc komponent z CV</h1>
-        </div> */}
+        {/* Komponent z CV */}
       </section>
 
       {/* sekcja 2 do PROJECTS */}
