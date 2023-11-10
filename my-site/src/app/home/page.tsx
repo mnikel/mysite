@@ -3,7 +3,10 @@ import { homeData } from "@/components/data/data";
 import Image from "next/image";
 import TechnologyStack from "@/components/TechnologyStack/TechnologyStack";
 import AboutMeToggleButton from "@/components/AboutMeToggleButton/AboutMeToggleButton";
+import ProjectThumbnail from "@/components/ProjectThumbnail/ProjectThumbnail";
+import { projects } from "@/components/data/data";
 function Page() {
+  
   return (
     <main className="flex flex-col items-center bg-indent">
       {/* sekcja 1 do HOME */}
@@ -53,6 +56,7 @@ function Page() {
       </section>
 
       {/* sekcja 2 do PROJECTS */}
+      
       <section
         id="projects"
         className=""
@@ -61,11 +65,13 @@ function Page() {
           <h2>{homeData.projects}</h2>
         </div>
         <div>
-          <h2>Tutaj przemapowac po komponencie z thumbnailem projektu</h2>
-          <p>{homeData.projectsPH}</p>
+          <p>{""}</p>
         </div>
-        {/* stworzyc komponent thumbnaila */}
-      </section>
+        <div className="flex flex-wrap justify-center space-x-4">
+      {projects.map((project, index) => (
+        <ProjectThumbnail key={index} {...project} />
+      ))}
+    </div>      </section>
     </main>
   );
 }

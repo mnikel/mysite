@@ -214,3 +214,115 @@ export const ResumeData = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  {
+    title: 'Project 1',
+    description: 'Description of Project 1.',
+    imageUrl: 'https://placekitten.com/300/200', // Replace with your project image URL
+    projectUrl: 'https://example.com/project1', // Replace with your project URL
+  },
+  // Add more projects as needed
+];

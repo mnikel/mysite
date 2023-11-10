@@ -19,11 +19,14 @@ function Header({ data }: { data: Page[] }) {
             );
           })}
         </nav>
+        <div>
         <h1 className="text-keyword">
           <span className="text-yellowbracket">&#123; </span>
           <span className="text-keyword">marcinnikel</span>
           <span className="text-yellowbracket"> &#125;</span>
         </h1>
+        </div>
+        
       </div>
     </header>
   );
