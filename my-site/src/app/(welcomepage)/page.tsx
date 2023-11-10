@@ -8,8 +8,8 @@ export default function Home() {
 
   return (
     <html>
-      <body className="bg-background">
-        <main className="flex flex-row min-h-screen items-center justify-center">
+      <body className="">
+        <main className="">
           <Typewritter />
         </main>
       </body>

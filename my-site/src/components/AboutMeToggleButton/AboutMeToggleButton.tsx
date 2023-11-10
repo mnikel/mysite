@@ -13,13 +13,13 @@ function AboutMeToggleButton() {
       {/* TUTAJ JSLI BEDZIE TO CHRONO, TO ZROBIC Z TEGO MODAL, BY NIE ZABURZAL DESIGNU.
       ALBO NAPISAC FAKTYCZNIE SAMEMU I ULOZYC OD POCZATKU. */}
       <button
-        className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-class hover:bg-keyword focus:outline-none"
+        className=""
         onClick={handleClick}
       >
         Toggle Timeline
       </button>
       {showTimeline && (
-        <div className="mt-4">
+        <div className="">
           <ResumeTimeline />
         </div>
       )}

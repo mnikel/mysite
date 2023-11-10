@@ -25,13 +25,13 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="max-w-md mx-auto">
+    <div className="">
       {/* DODAC STYL, TAK ZEBY OKNA W FORMULARZU BYLY ZGODNE Z KOLORAMI Z VSC
       PAMIETAJ BY BYLY JAK NAJBLIZEJ 7.0 W https://webaim.org/resources/contrastchecker/ 
       ZABLOKOWAC TEXTAREA NA OK 2000 / 3000 ZNAKOW?*/}
-      <form onSubmit={handleSubmit} className="space-y-6">
+      <form onSubmit={handleSubmit} className="">
         <div>
-          <label htmlFor="fullName" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="fullName" className="">
           </label>
           <input
             type="text"
@@ -45,7 +45,7 @@ const ContactForm: React.FC = () => {
           />
         </div>
         <div>
-          <label htmlFor="email" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="email" className="">
           </label>
           <input
             type="email"
@@ -54,12 +54,12 @@ const ContactForm: React.FC = () => {
             value={formData.email}
             onChange={handleChange}
             required
-            className="mt-1 p-2 block w-full shadow-sm focus:ring-keyword focus:border-keywrod sm:text-sm border-gray-300 rounded-md"
+            className=""
             placeholder='E-mail adresss'
           />
         </div>
         <div>
-          <label htmlFor="message" className="block text-sm font-medium text-gray-700">
+          <label htmlFor="message" className="">
           </label>
           <textarea
             id="message"
@@ -68,14 +68,14 @@ const ContactForm: React.FC = () => {
             onChange={handleChange}
             required
             rows={4}
-            className="mt-1 p-2 block w-full shadow-sm focus:ring-keyword focus:border-keyword sm:text-sm border-gray-300 rounded-md"
+            className=""
             placeholder='Your awesome message'
           />
         </div>
         <div>
           <button
             type="submit"
-            className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-class hover:bg-keyword focus:outline-none"
+            className=""
             >
             Submit
           </button>

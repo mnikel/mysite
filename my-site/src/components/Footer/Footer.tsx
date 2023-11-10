@@ -5,14 +5,14 @@ import ContactForm from "../ContactForm/ContactForm";
 
 function Footer({ contactInfo }: ContactInfo) {
   return (
-    <footer className="flex flex-wrap items-center justify-center w-full bg-background shadow-footer py-4" id="contact">
-      <div className="w-1/3">
+    <footer className="" id="contact">
+      <div className="">
         <ContactForm />
       </div>
-      <div className="w-1/3">
+      <div className="">
         <h1>{homeData.footer}</h1>
       </div>
-      <div className="flex items-center justify-center gap w-1/3">
+      <div className="">
         <a href={`mailto:${contactInfo[0]}`} aria-label="E-mail">
           <Mail className="contact_icons" />
         </a>
@@ -26,7 +26,7 @@ function Footer({ contactInfo }: ContactInfo) {
           <X className="contact_icons" />
         </a>
       </div>
-      <div className="w-full flex items-center justify-center mt-auto">
+      <div className="">
         <p className="text-string bottom-0">All rights reserved by mnikel</p>
       </div>
     </footer>

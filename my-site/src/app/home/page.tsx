@@ -33,7 +33,7 @@ function Page() {
         className=""
         id="about"
       >
-        <div className="w-1/3">
+        <div className="first-letter:">
           <Image
             width={640}
             height={960}
@@ -41,11 +41,11 @@ function Page() {
             alt={"Photo of me"}
             src={"/images/photo.jpeg"}
             priority={false}
-            className="photo"
+            className=""
           />
         </div>
 
-        <div className="w-1/3">
+        <div className="">
           <p> {homeData.body}</p> {/* dopisac kolejny key w data!!!!!! */}
           <div>
             <AboutMeToggleButton />
@@ -61,13 +61,13 @@ function Page() {
         id="projects"
         className=""
       >
-        <div className="mb-4">
+        <div className="">
           <h2>{homeData.projects}</h2>
         </div>
         <div>
           <p>{""}</p>
         </div>
-        <div className="flex flex-wrap justify-center space-x-4">
+        <div className="">
       {projects.map((project, index) => (
         <ProjectThumbnail key={index} {...project} />
       ))}
