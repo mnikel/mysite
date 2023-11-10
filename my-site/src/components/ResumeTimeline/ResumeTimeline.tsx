@@ -9,16 +9,19 @@ const ResumeTimeline = () => {
       <Chrono
         items={ResumeData}
         theme={{
-          primary: '#4EC9B0',
-          secondary: "fff",
+          primary: '#DA7FD6',
+          secondary: "yelllow",
           cardBgColor: '#4EC9B0',
-          titleColor: '#4EC9B0',
+          titleColor: '#fff',
           titleColorActive: '#DA7FD6',        }}
         mode="VERTICAL_ALTERNATING"
         slideShow={true}
-        scrollable
+        scrollable={{ scrollbar: true }}
         enableOutline
-      />
+        cardHeight={100}
+        slideItemDuration={3000}
+        timelinePointShape={"diamond"}
+/>
     </div>
   );
 };
