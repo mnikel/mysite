@@ -8,7 +8,7 @@ function Page() {
     <main className="flex flex-col items-center bg-indent">
       {/* sekcja 1 do HOME */}
       <section
-        className="flex flex-row w-10/12 mt-10 mb-6 items-center"
+        className=""
         id="home"
       >
         <div>
@@ -27,7 +27,7 @@ function Page() {
 
       {/* sekcja 2 do ABOUT */}
       <section
-        className="flex flex-row w-10/12 mt-10 mb-6 items-center"
+        className=""
         id="about"
       >
         <div className="w-1/3">
@@ -55,7 +55,7 @@ function Page() {
       {/* sekcja 2 do PROJECTS */}
       <section
         id="projects"
-        className="flex flex-col w-10/12 mt-10 mb-6 items-start"
+        className=""
       >
         <div className="mb-4">
           <h2>{homeData.projects}</h2>

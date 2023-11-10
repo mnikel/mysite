@@ -48,14 +48,14 @@ const categories = [
 
 function TechnologyStack() {
   return (
-    <div className="flex flex-wrap w-1/3 gap-4">
+    <div className="flex flex-row justify-center flex-wrap w-1/3 gap-4">
       <div className="w-full flex items-center justify-center mt-auto">
-        <h3>{homeData.stack}</h3>
+        <h3 className="text-3xl">{homeData.stack}</h3>
       </div>
 
       {categories.map((category, index) => (
         <div key={index}>
-          <h3>{category.title}</h3>
+          <h3 className="text-pinkbracket text-2xl">{category.title}</h3>
           {category.tech.sort((a, b) => b.rating - a.rating).map((tech, index) => (
             <div key={index}>
               <tech.Icon className="order-2" />
