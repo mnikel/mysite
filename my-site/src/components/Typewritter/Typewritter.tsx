@@ -15,7 +15,7 @@ function Typewriter() {
       }
     };
     window.addEventListener("keypress", handleKeyPress);
-    
+
     return () => {
       window.removeEventListener("keypress", handleKeyPress);
     };
@@ -34,11 +34,12 @@ function Typewriter() {
             <span className="text-yellowbracket"> &#125;</span>
           </h1>
         </Link>
+        {/* ZMIENIC BACKGROUND NA MATRIX SPADAJACY KOD. MOZE ANIMACJA KROLIKA WSKAKUJACEGO DO DZIURY. */}
 
         <div className="w-max m-40 py-10 flex justify-center items-center">
-          <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-5xl text-white font-bold py-2">
+          <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-6xl text-class font-extrabold py-2 animate-jump-in animate-duration-1000 animate-delay-[9000ms] animate-ease-in">
             <span className="text-class">
-              To get inside, click the name or press return...
+              To get inside take the blue pill or klik return...
             </span>
           </p>
         </div>

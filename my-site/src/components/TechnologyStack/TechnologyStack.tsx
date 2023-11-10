@@ -52,7 +52,10 @@ function TechnologyStack() {
       <div className="w-full flex items-center justify-center mt-auto">
         <h3 className="text-3xl">{homeData.stack}</h3>
       </div>
-
+      {/* ULOZYC WSZYSTKIE TECHNOLOGIE OBOK SIEBIE W KWADRACIE, MOZE GRID??? */}
+      {/* ZAPISAC JE W NOWYM DIVIE, KTORY BEDZIE Z FLEXBOXA USTAWINY TAKM GDZIE MA BYC,
+          ALE W GRIDZIE BEDZIE MOZNA TO DOBRZE USTAWIC. KOLORY I SVG ZASTANOWIC SIE, MZOE W 
+          KOLORZE MATRIXA?????  */}
       {categories.map((category, index) => (
         <div key={index}>
           <h3 className="text-pinkbracket text-2xl">{category.title}</h3>

@@ -26,6 +26,9 @@ const ContactForm: React.FC = () => {
 
   return (
     <div className="max-w-md mx-auto">
+      {/* DODAC STYL, TAK ZEBY OKNA W FORMULARZU BYLY ZGODNE Z KOLORAMI Z VSC
+      PAMIETAJ BY BYLY JAK NAJBLIZEJ 7.0 W https://webaim.org/resources/contrastchecker/ 
+      ZABLOKOWAC TEXTAREA NA OK 2000 / 3000 ZNAKOW?*/}
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
           <label htmlFor="fullName" className="block text-sm font-medium text-gray-700">

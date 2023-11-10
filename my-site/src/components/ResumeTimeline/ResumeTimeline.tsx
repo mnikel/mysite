@@ -6,14 +6,16 @@ import { ResumeData } from "../data/data";
 const ResumeTimeline = () => {
   return (
     <div style={{ width: "1000px", height: "1000px" }}>
+      {/* MOZE JEDNAK NAPISAC TO SAMEMU SKORO BIBLIOTEKA STWARZA TYLE PROBLEMOW???? */}
       <Chrono
         items={ResumeData}
         theme={{
-          primary: '#DA7FD6',
+          primary: "#DA7FD6",
           secondary: "yelllow",
-          cardBgColor: '#4EC9B0',
-          titleColor: '#fff',
-          titleColorActive: '#DA7FD6',        }}
+          cardBgColor: "#4EC9B0",
+          titleColor: "#fff",
+          titleColorActive: "#DA7FD6",
+        }}
         mode="VERTICAL_ALTERNATING"
         slideShow={true}
         scrollable={{ scrollbar: true }}
@@ -21,7 +23,7 @@ const ResumeTimeline = () => {
         cardHeight={100}
         slideItemDuration={3000}
         timelinePointShape={"diamond"}
-/>
+      />
     </div>
   );
 };

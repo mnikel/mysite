@@ -24,6 +24,7 @@ export type ContactInfo = {
   contactInfo: string[];
 };
 
+"FAKTYCZNIE POPRACOWAC NAD TYMI DANYMI. W KONCU PISANIE CI MARCINEK JAKOS TAM WYCHODZI ;)"
 export const homeData = {
   name: "Marcin M. Nikel",
   title: "Hello! I'm Marcin Nikel.",
