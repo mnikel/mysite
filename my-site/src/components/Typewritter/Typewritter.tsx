@@ -39,7 +39,7 @@ function Typewriter() {
         <div className="w-max m-40 py-10 flex justify-center items-center">
           <p className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-6xl text-class font-extrabold py-2 animate-jump-in animate-duration-1000 animate-delay-[9000ms] animate-ease-in">
             <span className="text-class">
-              To get inside take the blue pill or klik return...
+              To get inside take the blue pill or clik return...
             </span>
           </p>
         </div>
